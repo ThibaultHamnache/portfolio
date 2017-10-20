@@ -1,0 +1,179 @@
+*
+{
+  font-family: 'Raleway', sans-serif;
+}
+body
+{
+  margin: 0;
+}
+
+/**************************************/
+/************** HEADER ****************/
+/**************************************/
+
+
+header li:hover
+{
+  background-color: #535254;
+}
+header li:hover a
+{
+  color: white;
+}
+header li
+{
+  padding: 20px;
+  text-transform: uppercase;
+}
+header li a
+{
+  color: black;
+  font-weight: bold;
+}
+header ul
+{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  width: 100%
+}
+/**************************************/
+/*************** MAIN *****************/
+/**************************************/
+.parallax
+{
+    /* The image used */
+    background-image: url(image/cover.jpg);
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-no-style
+{
+  list-style: none;
+}
+.list-no-style li a
+{
+  text-decoration: none;
+}
+.half-size
+{
+  width: 50%;
+}
+.min-size-small
+{
+  min-width: 300px;
+}
+.flex-wrap
+{
+  flex-wrap: wrap;
+}
+.flex-wrap-reverse
+{
+  flex-wrap: wrap-reverse;
+}
+.flex-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.section-container
+{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+.page1, .page2, .page4, .page5
+{
+  height: 100vh;
+}
+.page3
+{
+  height: 50vh;
+}
+.page2
+{
+  background-color: #fff;
+  display: flex;
+}
+.page4
+{
+  flex-direction: column;
+}
+.aboutMe,
+{
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+/*.rounded-circle
+{
+  align-self: flex-start;
+  align-items: center;
+}*/
+
+.skillBar
+{
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 8px;
+  padding:0;
+  
+}
+.skills
+{
+  text-align: right; /* Right-align text */
+  padding-right: 20px; /* Add some right padding */
+  line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+  color: white; /* White text color */
+}
+
+.html
+{
+  width: 90%;
+  background-color: #4CAF50;
+  border-radius: 8px;
+}
+.page3, .page5
+{
+  background-color: #535254;
+}
+.contact
+{
+ text-align: center;
+ align-self: flex-start;
+}
+.center
+{
+  text-align: center;
+  align-items: flex-start;
+}
+/**************************************/
+/*********** MEDIA QUERIES ************/
+/**************************************/
+
+@media screen and (max-width: 800px)
+{
+  .flex-container
+  {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .section-container
+  {
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+
+}
