@@ -1,0 +1,83 @@
+Oct 23 09:04:10 10.71.50.26 u90958618 Connection from 10.71.50.26 port 39988 on 217.160.63.196 port 22
+Oct 23 09:04:14 10.71.50.26 u90958618 Accepted password for u90958618 from 10.71.50.26 port 39988 ssh2
+Oct 23 09:04:14 - u90958618 session opened for local user u90958618 from [10.71.50.26]
+Oct 23 09:04:33 10.71.50.26 u90958618 Connection from 10.71.50.26 port 57752 on 217.160.63.196 port 22
+Oct 23 09:04:34 10.71.50.26 u90958618 Accepted password for u90958618 from 10.71.50.26 port 57752 ssh2
+Oct 23 09:04:33 10.71.50.26 u90958618 Connection from 10.71.50.26 port 57754 on 217.160.63.196 port 22
+Oct 23 09:04:34 10.71.50.26 u90958618 Accepted password for u90958618 from 10.71.50.26 port 57754 ssh2
+Oct 23 09:04:34 - u90958618 session opened for local user u90958618 from [10.71.50.26]
+Oct 23 09:04:34 - u90958618 session opened for local user u90958618 from [10.71.50.26]
+Oct 23 09:04:34 - u90958618 open "/script.js" flags READ mode 0666
+Oct 23 09:04:34 - u90958618 sent status No such file
+Oct 23 09:04:34 - u90958618 close "/script.js" bytes read 529 written 0
+Oct 23 09:04:34 - u90958618 [10.71.50.26|get|0|529|0|0|0|2f7363726970742e6a73|]
+Oct 23 09:04:40 - u90958618 open "/style.css" flags READ mode 0666
+Oct 23 09:04:40 - u90958618 open "/index.html" flags READ mode 0666
+Oct 23 09:04:40 - u90958618 close "/style.css" bytes read 3479 written 0
+Oct 23 09:04:40 - u90958618 [10.71.50.26|get|0|3479|0|0|0|2f7374796c652e637373|]
+Oct 23 09:04:40 - u90958618 close "/index.html" bytes read 7591 written 0
+Oct 23 09:04:40 - u90958618 [10.71.50.26|get|0|7591|0|0|0|2f696e6465782e68746d6c|]
+Oct 23 09:04:40 - u90958618 open "/css/bootstrap.min.css.map" flags READ mode 0666
+Oct 23 09:04:40 - u90958618 open "/css/bootstrap.min.css" flags READ mode 0666
+Oct 23 09:04:40 - u90958618 close "/css/bootstrap.min.css" bytes read 124962 written 0
+Oct 23 09:04:40 - u90958618 [10.71.50.26|get|0|124962|0|0|0|2f6373732f626f6f7473747261702e6d696e2e637373|]
+Oct 23 09:04:40 - u90958618 close "/css/bootstrap.min.css.map" bytes read 502438 written 0
+Oct 23 09:04:40 - u90958618 [10.71.50.26|get|0|502438|0|0|0|2f6373732f626f6f7473747261702e6d696e2e6373732e6d6170|]
+Oct 23 09:04:40 - u90958618 open "/css/bootstrap.css.map" flags READ mode 0666
+Oct 23 09:04:40 - u90958618 open "/css/bootstrap.css" flags READ mode 0666
+Oct 23 09:04:40 - u90958618 close "/css/bootstrap.css.map" bytes read 379132 written 0
+Oct 23 09:04:40 - u90958618 [10.71.50.26|get|0|379132|0|0|0|2f6373732f626f6f7473747261702e6373732e6d6170|]
+Oct 23 09:04:40 - u90958618 close "/css/bootstrap.css" bytes read 156884 written 0
+Oct 23 09:04:40 - u90958618 [10.71.50.26|get|0|156884|0|0|0|2f6373732f626f6f7473747261702e637373|]
+Oct 23 09:04:40 - u90958618 open "/css/bootstrap-reboot.min.css.map" flags READ mode 0666
+Oct 23 09:04:40 - u90958618 open "/css/bootstrap-reboot.min.css" flags READ mode 0666
+Oct 23 09:04:40 - u90958618 close "/css/bootstrap-reboot.min.css.map" bytes read 24646 written 0
+Oct 23 09:04:40 - u90958618 [10.71.50.26|get|0|24646|0|0|0|2f6373732f626f6f7473747261702d7265626f6f742e6d696e2e6373732e6d6170|]
+Oct 23 09:04:40 - u90958618 close "/css/bootstrap-reboot.min.css" bytes read 3604 written 0
+Oct 23 09:04:40 - u90958618 [10.71.50.26|get|0|3604|0|0|0|2f6373732f626f6f7473747261702d7265626f6f742e6d696e2e637373|]
+Oct 23 09:04:40 - u90958618 open "/css/bootstrap-reboot.css.map" flags READ mode 0666
+Oct 23 09:04:40 - u90958618 open "/css/bootstrap-reboot.css" flags READ mode 0666
+Oct 23 09:04:40 - u90958618 close "/css/bootstrap-reboot.css.map" bytes read 51030 written 0
+Oct 23 09:04:40 - u90958618 [10.71.50.26|get|0|51030|0|0|0|2f6373732f626f6f7473747261702d7265626f6f742e6373732e6d6170|]
+Oct 23 09:04:40 - u90958618 close "/css/bootstrap-reboot.css" bytes read 4486 written 0
+Oct 23 09:04:40 - u90958618 [10.71.50.26|get|0|4486|0|0|0|2f6373732f626f6f7473747261702d7265626f6f742e637373|]
+Oct 23 09:04:40 - u90958618 open "/css/bootstrap-grid.min.css.map" flags READ mode 0666
+Oct 23 09:04:41 - u90958618 open "/css/bootstrap-grid.min.css" flags READ mode 0666
+Oct 23 09:04:41 - u90958618 close "/css/bootstrap-grid.min.css.map" bytes read 52677 written 0
+Oct 23 09:04:41 - u90958618 [10.71.50.26|get|1|52677|0|0|0|2f6373732f626f6f7473747261702d677269642e6d696e2e6373732e6d6170|]
+Oct 23 09:04:41 - u90958618 close "/css/bootstrap-grid.min.css" bytes read 21780 written 0
+Oct 23 09:04:41 - u90958618 [10.71.50.26|get|0|21780|0|0|0|2f6373732f626f6f7473747261702d677269642e6d696e2e637373|]
+Oct 23 09:04:41 - u90958618 open "/css/bootstrap-grid.css.map" flags READ mode 0666
+Oct 23 09:04:41 - u90958618 open "/css/bootstrap-grid.css" flags READ mode 0666
+Oct 23 09:04:41 - u90958618 close "/css/bootstrap-grid.css.map" bytes read 73751 written 0
+Oct 23 09:04:41 - u90958618 [10.71.50.26|get|0|73751|0|0|0|2f6373732f626f6f7473747261702d677269642e6373732e6d6170|]
+Oct 23 09:04:41 - u90958618 close "/css/bootstrap-grid.css" bytes read 29140 written 0
+Oct 23 09:04:41 - u90958618 [10.71.50.26|get|0|29140|0|0|0|2f6373732f626f6f7473747261702d677269642e637373|]
+Oct 23 09:04:41 - u90958618 open "/css/.DS_Store" flags READ mode 0666
+Oct 23 09:04:41 - u90958618 open "/image/twitter.png" flags READ mode 0666
+Oct 23 09:04:41 - u90958618 close "/css/.DS_Store" bytes read 8196 written 0
+Oct 23 09:04:41 - u90958618 [10.71.50.26|get|0|8196|0|0|0|2f6373732f2e44535f53746f7265|]
+Oct 23 09:04:41 - u90958618 close "/image/twitter.png" bytes read 199149 written 0
+Oct 23 09:04:41 - u90958618 [10.71.50.26|get|0|199149|0|0|0|2f696d6167652f747769747465722e706e67|]
+Oct 23 09:04:41 - u90958618 open "/image/fb.png" flags READ mode 0666
+Oct 23 09:04:41 - u90958618 open "/image/insta.png" flags READ mode 0666
+Oct 23 09:04:41 - u90958618 close "/image/fb.png" bytes read 12125 written 0
+Oct 23 09:04:41 - u90958618 [10.71.50.26|get|0|12125|0|0|0|2f696d6167652f66622e706e67|]
+Oct 23 09:04:41 - u90958618 close "/image/insta.png" bytes read 26159 written 0
+Oct 23 09:04:41 - u90958618 [10.71.50.26|get|0|26159|0|0|0|2f696d6167652f696e7374612e706e67|]
+Oct 23 09:04:41 - u90958618 open "/image/cover.jpg" flags READ mode 0666
+Oct 23 09:04:41 - u90958618 open "/image/computer.png" flags READ mode 0666
+Oct 23 09:04:41 - u90958618 close "/image/computer.png" bytes read 49947 written 0
+Oct 23 09:04:41 - u90958618 [10.71.50.26|get|0|49947|0|0|0|2f696d6167652f636f6d70757465722e706e67|]
+Oct 23 09:04:41 - u90958618 close "/image/cover.jpg" bytes read 3016680 written 0
+Oct 23 09:04:41 - u90958618 [10.71.50.26|get|0|3016680|0|0|0|2f696d6167652f636f7665722e6a7067|]
+Oct 23 09:04:41 - u90958618 open "/image/bito.jpg" flags READ mode 0666
+Oct 23 09:04:41 - u90958618 close "/image/bito.jpg" bytes read 17384 written 0
+Oct 23 09:04:41 - u90958618 [10.71.50.26|get|0|17384|0|0|0|2f696d6167652f6269746f2e6a7067|]
+Oct 23 09:04:41 - u90958618 open "/js/bootstrap.js" flags READ mode 0666
+Oct 23 09:04:41 - u90958618 close "/js/bootstrap.js" bytes read 111390 written 0
+Oct 23 09:04:41 - u90958618 [10.71.50.26|get|0|111390|0|0|0|2f6a732f626f6f7473747261702e6a73|]
+Oct 23 09:04:41 - u90958618 open "/js/bootstrap.min.js" flags READ mode 0666
+Oct 23 09:04:42 - u90958618 close "/js/bootstrap.min.js" bytes read 51143 written 0
+Oct 23 09:04:42 - u90958618 [10.71.50.26|get|1|51143|0|0|0|2f6a732f626f6f7473747261702e6d696e2e6a73|]
+Oct 23 09:04:42 - u90958618 open "/logs/sftp.log" flags READ mode 0666

@@ -1,0 +1,248 @@
+
+body
+{
+  margin: 0;
+}
+
+/**************************************/
+/************** HEADER ****************/
+/**************************************/
+
+
+header li:hover
+{
+  background-color: #535254;
+}
+header li:hover a
+{
+  color: white;
+}
+header li
+{
+  padding: 20px;
+  text-transform: uppercase;
+}
+header li a
+{
+  color: black;
+  font-weight: bold;
+}
+header ul
+{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: transparent;
+  width: 100%
+}
+/**************************************/
+/*************** MAIN *****************/
+/**************************************/
+.list-no-style
+{
+  list-style: none;
+}
+.list-no-style li a
+{
+  text-decoration: none;
+}
+.half-size
+{
+  width: 50%;
+}
+.min-size-small
+{
+  min-width: 300px;
+}
+.flex-wrap
+{
+  flex-wrap: wrap;
+}
+.flex-wrap-reverse
+{
+  flex-wrap: wrap-reverse;
+}
+.flex-container
+{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.section-container
+{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.page2, .page3, .page5
+{
+  height: 100vh;
+}
+.page3, .page5
+{
+  background-color: #535254;
+}
+.skillBarContent, .aboutMe, .contact
+{
+  height: 70%;
+}
+.title
+{
+  justify-content: flex-start;
+  align-self: flex-start;
+  flex-direction: column;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Acme', sans-serif;
+}
+/**************************************/
+/************** PAGE 1 ****************/
+/**************************************/
+.parallax1
+{
+  background-image: url(image/cover.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nomAcceuil
+{
+  font-family: 'Indie Flower', cursive;
+  font-size: 90px;
+  text-align: center;
+  color: #fff;
+}
+.nomMetier
+{
+  font-family: 'Indie Flower', cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+}
+.imgProfil
+{
+  align-self: flex-start;
+}
+/**************************************/
+/************** PAGE 2 ****************/
+/**************************************/
+.page2
+{
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+}
+
+
+
+/**************************************/
+/*********** PAGE 3 / SKILLS **********/
+/**************************************/
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+}
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+  width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	border-radius: 3px;
+}
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+}
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+}
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:15px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+/**************************************/
+/************** PAGE 4 ****************/
+/**************************************/
+.socialImg
+{
+  border: 8px solid black;
+  text-decoration: none;
+}
+.socialtest
+{
+  justify-content: center;
+}
+.parallax2
+{
+  background-image: url(image/sanFrancisco.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page4
+{
+  display: flex;
+  height: 100vh;
+  padding: 0;
+  background-color: #535254;
+}
+.social
+{
+  color: #fff;
+  min-height: 50vh;
+
+}
+/**************************************/
+/************** FOOTER ****************/
+/**************************************/
+footer
+{
+  height: 10vh;
+  font-size: 20px
+}
+
+/**************************************/
+/*********** MEDIA QUERIES ************/
+/**************************************/
+
+@media screen and (max-width: 800px)
+{
+  .flex-container
+  {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .section-container
+  {
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+
+}
