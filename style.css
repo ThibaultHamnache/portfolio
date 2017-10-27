@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 
+=======
+*
+{
+  font-family: 'Raleway', sans-serif;
+}
+>>>>>>> 28a93df93b1b836aca4fc6bc1da39cd3e2133c6d
 body
 {
   margin: 0;
@@ -29,15 +36,40 @@ header li a
 }
 header ul
 {
+<<<<<<< HEAD
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+=======
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+>>>>>>> 28a93df93b1b836aca4fc6bc1da39cd3e2133c6d
   background-color: transparent;
   width: 100%
 }
 /**************************************/
 /*************** MAIN *****************/
 /**************************************/
+<<<<<<< HEAD
+=======
+.parallax
+{
+    /* The image used */
+    background-image: url(image/cover.jpg);
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+>>>>>>> 28a93df93b1b836aca4fc6bc1da39cd3e2133c6d
 .list-no-style
 {
   list-style: none;
@@ -66,13 +98,19 @@ header ul
 {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   align-content: center;
   justify-content: center;
+=======
+  justify-content: center;
+
+>>>>>>> 28a93df93b1b836aca4fc6bc1da39cd3e2133c6d
 }
 .section-container
 {
   padding-left: 10%;
   padding-right: 10%;
+<<<<<<< HEAD
 }
 .page2, .page3, .page5
 {
@@ -228,6 +266,75 @@ footer
   font-size: 20px
 }
 
+=======
+
+}
+.page1, .page2, .page4, .page5
+{
+  height: 100vh;
+}
+.page3
+{
+  height: 50vh;
+}
+.page2
+{
+  background-color: #fff;
+  display: flex;
+}
+.page4
+{
+  flex-direction: column;
+}
+.aboutMe,
+{
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+/*.rounded-circle
+{
+  align-self: flex-start;
+  align-items: center;
+}*/
+
+.skillBar
+{
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 8px;
+  padding:0;
+  
+}
+.skills
+{
+  text-align: right; /* Right-align text */
+  padding-right: 20px; /* Add some right padding */
+  line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+  color: white; /* White text color */
+}
+
+.html
+{
+  width: 90%;
+  background-color: #4CAF50;
+  border-radius: 8px;
+}
+.page3, .page5
+{
+  background-color: #535254;
+}
+.contact
+{
+ text-align: center;
+ align-self: flex-start;
+}
+.center
+{
+  text-align: center;
+  align-items: flex-start;
+}
+>>>>>>> 28a93df93b1b836aca4fc6bc1da39cd3e2133c6d
 /**************************************/
 /*********** MEDIA QUERIES ************/
 /**************************************/
