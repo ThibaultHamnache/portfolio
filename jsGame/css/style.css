@@ -1,0 +1,116 @@
+body
+{
+  background-image: url("../img/background.png");
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.gameScreens
+{
+  width: 70vw;
+  height: 80vh;
+  background-color: transparent;
+}
+.hidden
+{
+  display: none!important;
+}
+.resetButton
+{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 5%;
+  height: 4%;
+  border-radius: 5px;
+  font-size: 25px;
+
+  font-weight: bold;
+}
+section[data-state="optionScreen"]
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section[data-state="optionScreen"] h2
+{
+  color: White;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 55px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 60px;
+}
+section[data-state="optionScreen"] input
+{
+  font-family: 'Annie Use Your Telescope', cursive;
+  text-align: center;
+  font-size: 30px;
+  width: 10%;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+section[data-state="optionScreen"] label
+{
+  color: white;
+  font-family: 'Annie Use Your Telescope', cursive;
+  text-align: center;
+  font-size: 30px;
+}
+.start
+{
+  width: 8%;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: transparent;
+  color: red;
+  border: none;
+}
+hr
+{
+  width: 80%;
+}
+section[data-state="playScreen"]
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gameContainer
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.gameDiv
+{
+  height: 58px;
+  width: 58px;
+  border: 1px solid white;
+}
+section[data-state="victory"] h1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 60px;
+}
+section[data-state="defeat"] h1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 60px;
+
+}
