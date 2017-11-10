@@ -1,0 +1,38 @@
+h1
+{
+  text-align: center;
+  font-family: 'Saira', sans-serif;
+}
+.clic
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button
+{
+  width: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+}
+p
+{
+  font-family: 'Chivo', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.banner
+{
+  background-image: url(images/banner.jpg);
+  height: 50vh   ;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+/**************************************/
+/************** HEADER ****************/
+/**************************************/

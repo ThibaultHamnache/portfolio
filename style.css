@@ -6,16 +6,50 @@ body
 {
   margin: 0;
 }
+
+
+h3 span, h3 b{
+    color:#800017
+}
+.blink{
+    visibility:hidden;
+}
+/**************************************/
+/************ BACK TO TOP *************/
+/**************************************/
+#back-top
+{
+  position: fixed;
+  display:none;
+  font-size: 50px;
+  color: rgba(0,0,0,0.5);
+  bottom: 40px;
+  right:40px;
+  width:auto;
+}
+a#back-top:active
+{
+  background:none;
+}
+a#back-top
+{
+  display: block; text-decoration: none;
+}
+.topup
+{
+  bottom:20px;
+}
+#back-top i
+{
+  display: block;
+}
 /**************************************/
 /************** HEADER ****************/
 /**************************************/
-header li:hover
-{
-  background-color: #535254;
-}
+
 header li:hover a
 {
-  color: white;
+  color: red;
 }
 header li
 {
@@ -34,6 +68,11 @@ header ul
   justify-content: flex-start;
   background-color: transparent;
   width: 100%
+}
+#top-menu li.active a{
+
+  color:#800017;
+
 }
 /**************************************/
 /*************** MAIN *****************/
@@ -121,7 +160,14 @@ header ul
   text-align: center;
   color: #fff;
 }
-
+.titleSite
+{
+  width: 100%
+}
+.headSite
+{
+  height: 50vh;
+}
 /**************************************/
 /************** PAGE 2 ****************/
 /**************************************/
@@ -139,7 +185,13 @@ header ul
 }
 .aboutMe
 {
+
   height: 80vh;
+}
+hr
+{
+  width: 10vw;
+  color: black;
 }
 /**************************************/
 /*********** PAGE 3 / SKILLS **********/
@@ -253,5 +305,18 @@ footer
   {
     padding-right: 1%;
     padding-left: 1%;
+  }
+}
+@media screen and (max-width: 600px)
+{
+  #page2
+  {
+    font-size:15px;
+    max-height: 100vh;
+  }
+  .imgProfil
+  {
+    height: 150px;
+    width: 150px;
   }
 }
